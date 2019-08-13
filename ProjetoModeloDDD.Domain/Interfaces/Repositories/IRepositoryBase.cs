@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace ProjetoModeloDDD.Domain.Interfaces
+namespace ProjetoModeloDDD.Domain.Interfaces.Repositories
 {
     //Trate ele(TEntity) como uma Classe
     public interface IRepositoryBase<TEntity> where TEntity : class

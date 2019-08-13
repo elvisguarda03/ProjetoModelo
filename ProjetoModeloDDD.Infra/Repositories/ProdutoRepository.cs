@@ -2,6 +2,7 @@
 using System.Linq;
 using ProjetoModeloDDD.Domain.Entities;
 using ProjetoModeloDDD.Domain.Interfaces;
+using ProjetoModeloDDD.Domain.Interfaces.Repositories;
 using ProjetoModeloDDD.Infra.Context;
 
 namespace ProjetoModeloDDD.Infra.Repositories

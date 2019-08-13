@@ -5,9 +5,10 @@ using System.Text;
 using System.Threading.Tasks;
 using ProjetoModeloDDD.Domain.Entities;
 
-namespace ProjetoModeloDDD.Domain.Interfaces
+namespace ProjetoModeloDDD.Application.Interface
 {
-    public interface IClienteRepository : IRepositoryBase<Cliente>
+    public interface IProdutoAppService : IAppServiceBase<Produto>
     {
+        IEnumerable<Produto> FindByNome(string nome);
     }
 }
